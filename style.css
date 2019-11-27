@@ -136,9 +136,9 @@ a:hover, a:active {
 #nav {
 	clear: both;
 	height: 100px;
-	width: 150%;
+	width: 500%;
 	position:absolute;
-	margin-left:10px;
+	margin-left:1px;
 }
 
 
