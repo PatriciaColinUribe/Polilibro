@@ -69,6 +69,12 @@ a:hover, a:active {
 	width: 900px;
 	position:relative;
 }
+#containerx {
+	margin: 0px auto;
+	text-align: left;
+	width: 1100px;
+	position:relative;
+}
 #containe {
 	margin: 0px auto;
 	text-align: left;
@@ -136,6 +142,13 @@ a:hover, a:active {
 #nav {
 	clear: both;
 	height: 100px;
+	width: 100%;
+	position:absolute;
+	margin-left:50px;
+}
+#nave {
+	clear: both;
+	height: 100px;
 	width: 500%;
 	position:absolute;
 	margin-left:1px;
@@ -177,52 +190,11 @@ a:hover, a:active {
 	text-decoration:underline;
 }
 
-#nav2 {
-	clear: both;
-	height: 100px;
-	width: 500%;
-	position:absolute;
-	margin-left:1px;
-}
-#nav2 ul {
-	list-style: none;
-	margin: 20px 0px 0px 0px;
-	padding: 0px;
-	width:100%;
-	z-index:15;
-	position:absolute;
-	text-align:center;
-}
-#nav2 li {
-	list-style: none;
-	float:left;
-	margin: 0px;
-	padding: 1px;
-	display:inline;
-	border-right: 1px solid #c0617f;
-}
-#nav2 a {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	font-weight: bold;
-    background: #367DAE;
-	font-variant: normal;
-	color: #FFFFFF;
-	text-decoration: none;
-	display:inline;
-	text-transform: uppercase;
-	padding: 20px 20px 10px 20px;
-}
-#nav2 a:hover {
-	color:#C2C2C2;
-	text-decoration:underline;
-}
-
 #right {
 	float: left;
 	width: 640px;
     overflow: hidden;
-    padding-left: 50px;
+    padding-left: 150px;
 }
 #right a{
 text-decoration:underline;
@@ -344,19 +316,15 @@ div#marco1, div#marco2, div#marco3, div#marco4 {
 }
 input[type=submit] {
   width: 15%;
-  background-color: #640C27;
-  color: white;
+  background-color: chartreuse;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
   font-weight: bold;
-  font-variant: normal;
-  text-decoration: none;
-  display:inline;
-  text-transform: uppercase;
-  position:fixed;
+  font-size: 16px;
 }
+input[type=submit]:hover {
+  background-color: #45a049;
