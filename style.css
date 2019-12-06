@@ -344,15 +344,19 @@ div#marco1, div#marco2, div#marco3, div#marco4 {
 }
 input[type=submit] {
   width: 15%;
-  background-color: chartreuse;
-  color: black;
+  background-color: #640C27;
+  color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
   font-weight: bold;
-  font-size: 16px;
+  font-variant: normal;
+  text-decoration: none;
+  display:inline;
+  text-transform: uppercase;
+  position:fixed;
 }
-input[type=submit]:hover {
-  background-color: #45a049;
