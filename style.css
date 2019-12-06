@@ -143,18 +143,10 @@ a:hover, a:active {
 #nav {
 	clear: both;
 	height: 100px;
-	width: 100%;
-	position:absolute;
-	margin-left:50px;
-}
-#nave {
-	clear: both;
-	height: 100px;
 	width: 500%;
 	position:absolute;
-	margin-left:1px;
+	margin-left:0px;
 }
-
 
 #nav ul {
 	list-style: none;
@@ -170,7 +162,7 @@ a:hover, a:active {
 	list-style: none;
 	float:left;
 	margin: 0px;
-	padding: 1px;
+	padding: 0px;
 	display:inline;
 	border-right: 1px solid #c0617f;
 }
