@@ -64,19 +64,19 @@ a:hover, a:active {
 }
 
 #container {
-	margin: 0 auto;
+	margin: 0px auto;
 	text-align: left;
 	width: 900px;
 	position:relative;
 }
 #containerx {
-	margin: 0 auto;
+	margin: 0px auto;
 	text-align: left;
 	width: 1100px;
 	position:relative;
 }
 #containe {
-	margin: 0 auto;
+	margin: 0px auto;
 	text-align: left;
 	width: 90%;
 	position:relative;
