@@ -82,7 +82,7 @@ a:hover, a:active {
 	margin: 0px auto;
 	text-align: left;
 	width: 1100px;
-	position:relative;
+	position: static;
 }
 #containe {
 	margin: 0px auto;
