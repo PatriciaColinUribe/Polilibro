@@ -7,6 +7,14 @@ body {
 	text-align: center;
 	width: 100%;
 }
+bodyx {
+	background:  url(images/fondo1.jpg) repeat;
+	color: #2D2D2D;
+	font-family: tahoma, arial, verdana;
+	font-size: 11px;
+	margin: 0 auto;
+	text-align: center;
+}
 
 img {
 	border: 0px;
